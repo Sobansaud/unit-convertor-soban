@@ -4,7 +4,7 @@ st.title("📏 Unit Converter App 📐")
 st.markdown("### Convert Length, Weight, and Time Instantly!")
 st.write("Welcome! Select a category, enter a value, and get the converted result in real-time. Let's make conversions easy! 🚀")
 
-category = st.selectbox("Choose a Category 📚", ["Length", "Weight", "Time"])
+category = st.selectbox("Choose a Category 📚", ["Length", "Width", "Time"])
 
 def convertor(category,unit,value):
     if category == "Length":
